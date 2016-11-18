@@ -34,4 +34,5 @@ int main(int argc, char *argv[]) {
   if (err == -1) {
     printf("Error: %d, %s\n",errno,strerror(errno));
   }
+  return 0;
 }
